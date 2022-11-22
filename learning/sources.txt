@@ -11,5 +11,10 @@ GIT
 -https://youtu.be/HkdAHXoRtos
 -https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
+Bootstrap
+-https://hackerthemes.com/bootstrap-cheatsheet
+
 Saxion discord
 - <link>no link</link>
+
+
