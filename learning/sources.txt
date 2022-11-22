@@ -1,0 +1,15 @@
+Here are a few learning resources that can help you with getting into web development.
+Don't be shy to ask questions but also try to find the answers yourself on google and on these pages.
+
+General
+-https://www.w3schools.com
+
+PHP
+-https://www.youtube.com/watch?v=a7_WFUlFS94
+
+GIT
+-https://youtu.be/HkdAHXoRtos
+-https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+Saxion discord
+- <link>no link</link>
