@@ -15,6 +15,6 @@ Bootstrap
 -https://hackerthemes.com/bootstrap-cheatsheet
 
 Saxion discord
-- <link>no link</link>
+- https://discord.gg/UGjmrjTXTJ
 
 
