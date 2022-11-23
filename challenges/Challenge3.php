@@ -1,3 +1,1 @@
-<?php
-
-echo "Challenge 3!";
+<p>Verplaats je naar vakje 20!</p>
