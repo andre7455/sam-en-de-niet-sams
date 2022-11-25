@@ -1,3 +1,1 @@
-<?php
-
-echo "Challenge 2!";
+<p>Verplaats je naar het vakje van de speler rechts van je!</p>
