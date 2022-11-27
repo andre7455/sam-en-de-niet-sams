@@ -29,6 +29,6 @@ The include is used to import a other page.
 	$chosenChallenge = "challenges" . "/Challenge" . rand(1, count(glob("challenges/" . "*"))) .".php";
     include $chosenChallenge;
 ?>
-<!-- here we close out the html so that the browser knows not to expect more-->
+<!-- here we close out the html so that the browser knows not to expect more code-->
 </body>
 </html>
