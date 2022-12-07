@@ -1,4 +1,4 @@
-<script src="js/Challenge5_helper.js"></script>
+
 <?php
 
 $min = 1;
@@ -8,8 +8,8 @@ $remainingGuesses = 5;
 
 echo "Welcome to the PHP skill game! </br>";
 echo "I'm thinking of a number between $min and $max. Can you guess what it is? </br>";
-echo '<a class="btn btn-primary" onclick="challenge(1,2)"> start mij!</a></br>';
 echo '<p id="remainingGuesses">you have ' . $remainingGuesses . ' remaining';
 ?>
-<label>antwoord</label>
-<input id="textField"></input>
+<script src="js/Challenge5_helper.js"></script>
+<button onclick="test()">Click me</button>
+=<input id="textField"></input>

@@ -11,3 +11,7 @@ function challenge(secretNumber, guessesIntotal){
     }
     guessesTaken++;
 }
+
+function test(){
+    alert("ja kut");
+}
