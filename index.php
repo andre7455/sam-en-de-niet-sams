@@ -21,13 +21,23 @@ $ is used to declare a variable and because php is a soft language we do not hav
 The include is used to import a other page.
 -->
 <?php
-	//initializing a filepath into a variable and generating a random int to pick a random challenge, after that getting the page.
+	$id = $_GET["id"];
+	
+	
+	//a bit of code to make it posible to get a specific challenge for development
+	if($id > 1){
+		$chosenChallenge = "challenges" . "/Challenge" .  $_GET["id"] .".php";
+		echo '<h1>KAAS</h1>';
+	} else{
+		echo '<h1>Worst</h1>';
+		//initializing a filepath into a variable and generating a random int to pick a random challenge, after that getting the page.
 	//
 	//rand(1, count(glob("challenges/" . "*")))
 	//the rand operator generates a random number where 1 is the lowest and count(glob("challenges/" . "*")) returns the amount of files
 	//in the challenges directory, that way no matter how many files are in the directory there is one chosen out of all of them
-	$chosenChallenge = "challenges" . "/Challenge" . rand(1, count(glob("challenges/" . "*"))) .".php";
-    include $chosenChallenge;
+		$chosenChallenge = "challenges" . "/Challenge" . rand(1, count(glob("challenges/" . "*"))) .".php";
+	}
+	include $chosenChallenge;
 ?>
 <!-- here we close out the html so that the browser knows not to expect more code-->
 </body>
