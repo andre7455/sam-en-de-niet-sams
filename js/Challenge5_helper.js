@@ -13,5 +13,5 @@ function challenge(secretNumber, guessesIntotal){
 }
 
 function test(){
-    alert("ja kut");
+    generatePunishment();
 }

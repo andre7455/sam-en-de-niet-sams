@@ -9,5 +9,24 @@ for more information read learning/sources w3schools and search for HTML  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+<script>
+function generatePunishment() {
+  // Genereer een nummer tussen 0 en 100.000
+  var randomNumber = Math.floor(Math.random() * 100000);
+  
+  // als het nummer 0 is dan win je
+  if (randomNumber === 0) {
+    alert("You win!");
+  }
+  // als je niet wint krijg je straf
+  else {
+    // genereer een nummer als straf
+    var steps = Math.floor(Math.random() * 8) + 1;
+    
+    alert("Punishment: Take " + steps + " steps back.");
+  }
+}
+
+</script>
 
 <body>

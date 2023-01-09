@@ -12,4 +12,4 @@ echo '<p id="remainingGuesses">you have ' . $remainingGuesses . ' remaining';
 ?>
 <script src="js/Challenge5_helper.js"></script>
 <button onclick="test()">Click me</button>
-=<input id="textField"></input>
+<input id="textField"></input>
