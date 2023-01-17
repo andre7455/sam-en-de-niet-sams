@@ -15,11 +15,6 @@
         document.getElementById("button1").style.display = "none";
         document.getElementById("button2").style.display = "none";
     }
-    function stapAchteruit(){
-        document.getElementById("text").innerHTML = "Stap achteruit!";
-        document.getElementById("button1").style.display = "none";
-        document.getElementById("button2").style.display = "none";
-    }
 </script>
 
 <?php
