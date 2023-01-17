@@ -15,3 +15,5 @@ function challenge(secretNumber, guessesIntotal){
 function test(){
     generatePunishment();
 }
+
+//TODO: Andre debug!
