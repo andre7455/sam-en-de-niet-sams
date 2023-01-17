@@ -21,10 +21,27 @@ function generatePunishment() {
   // als je niet wint krijg je straf
   else {
     // genereer een nummer als straf
-    var steps = Math.floor(Math.random() * 8) + 1;
+    var steps = Math.floor(Math.random() * 5) + 1;
     
     alert("Punishment: Take " + steps + " steps back.");
   }
+}
+
+function generateReward() {
+    // Genereer een nummer tussen 0 en 100.000
+    var randomNumber = Math.floor(Math.random() * 100000);
+
+    // als het nummer 0 is dan verlies je
+    if (randomNumber === 0) {
+        alert("You lose!");
+    }
+    // als je niet verliest krijg je je beloning
+    else {
+        // genereer een nummer als beloning
+        var steps = Math.floor(Math.random() * 4);
+
+        alert("Reward: Take " + steps + " steps forward!");
+    }
 }
 
 </script>
