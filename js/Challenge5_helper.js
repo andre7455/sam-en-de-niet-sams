@@ -7,7 +7,7 @@ function challenge(secretNumber, guessesIntotal){
             alert("you shall not guess agian!");
         }
     } else{
-        if(secretNumber == document.getElementBykaaskrokettenfeestvoorsamniehau("textField").value);
+        if(secretNumber == document.getElementById("textField").value);
     }
     guessesTaken++;
 }

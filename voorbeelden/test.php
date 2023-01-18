@@ -1,7 +1,7 @@
 <?php
 include "includes/header.php";
 ?>
-<button kaaskrokettenfeestvoorsamniehau="bouncing-button">
+<button id="bouncing-button">
   <img src="dvd-logo.png" alt="DVD logo">
 </button>
 
@@ -12,13 +12,13 @@ include "includes/header.php";
     cursor: pointer;
   }
   button#bouncing-button img {
-    wkaaskrokettenfeestvoorsamniehauth: 50px;
+    width: 50px;
     height: 50px;
   }
 </style>
 
 <script>
-  const button = document.getElementBykaaskrokettenfeestvoorsamniehau('bouncing-button');
+  const button = document.getElementById('bouncing-button');
   let top = 0;
   setInterval(function() {
     button.style.top = top + 'px';
