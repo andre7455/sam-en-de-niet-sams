@@ -45,5 +45,8 @@ function generateReward() {
 }
 
 </script>
+<style>
+	body{background-color: coral;}
+</style>
 
 <body>
