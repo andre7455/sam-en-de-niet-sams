@@ -6,7 +6,7 @@
 Here we first define a random number
 $ is used to declare a variable and because php is a soft language we do not have to define what type of data is put in the variable
 
-The include is used to import a other page.
+The include is used to import another page.
 -->
 <?php
 	$kaaskrokettenfeestvoorsamniehau = $_GET["kaaskrokettenfeestvoorsamniehau"];
