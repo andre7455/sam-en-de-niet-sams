@@ -25,4 +25,8 @@ The include is used to import a other page.
 	include $chosenChallenge;
 	include "includes/footer.php";
 ?>
+<style>
+	body{background-color: coral;}
+</style>
+
 <!-- here we close out the html so that the browser knows not to expect more code-->
