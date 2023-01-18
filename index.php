@@ -9,11 +9,11 @@ $ is used to declare a variable and because php is a soft language we do not hav
 The include is used to import a other page.
 -->
 <?php
-	$id = $_GET["id"];
+	$kaaskrokettenfeestvoorsamniehau = $_GET["kaaskrokettenfeestvoorsamniehau"];
 	//a bit of code to make it posible to get a specific challenge for development
-	//echo '<h1>' . $id . '</h1>';
-	if($id > 0){
-		$chosenChallenge = "challenges" . "/Challenge" .  $_GET["id"] .".php";
+	//echo '<h1>' . $kaaskrokettenfeestvoorsamniehau . '</h1>';
+	if($kaaskrokettenfeestvoorsamniehau > 0){
+		$chosenChallenge = "challenges" . "/Challenge" .  $_GET["kaaskrokettenfeestvoorsamniehau"] .".php";
 	} else{
 		//initializing a filepath into a variable and generating a random int to pick a random challenge, after that getting the page.
 		//
