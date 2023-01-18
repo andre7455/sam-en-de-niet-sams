@@ -25,6 +25,7 @@ function generatePunishment() {
     
     alert("Punishment: Take " + steps + " steps back.");
   }
+  redirect();
 }
 
 function generateReward() {
@@ -39,9 +40,13 @@ function generateReward() {
     else {
         // genereer een nummer als beloning
         var steps = Math.floor(Math.random() * 4);
-
         alert("Reward: Take " + steps + " steps forward!");
     }
+    redirect();
+}
+
+function redirect(){
+  window.location.href = "index.php";
 }
 
 </script>
