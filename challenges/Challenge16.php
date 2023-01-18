@@ -1,18 +1,18 @@
-<table id="board" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td id="cell-0" style="border: 5px solid black;"></td>
-    <td id="cell-1" style="border: 5px solid black;"></td>
-    <td id="cell-2" style="border: 5px solid black;"></td>
+<table id="board" style="border-collapse: collapse;">
+  <tr style="height: 100px;">
+    <td id="cell-0" style="border: 5px solid black; width: 100px;"></td>
+    <td id="cell-1" style="border: 5px solid black; width: 100px;"></td>
+    <td id="cell-2" style="border: 5px solid black; width: 100px;"></td>
   </tr>
-  <tr>
-    <td id="cell-3" style="border: 5px solid black;"></td>
-    <td id="cell-4" style="border: 5px solid black;"></td>
-    <td id="cell-5" style="border: 5px solid black;"></td>
+  <tr style="height: 100px;">
+    <td id="cell-3" style="border: 5px solid black; width: 100px;"></td>
+    <td id="cell-4" style="border: 5px solid black; width: 100px;"></td>
+    <td id="cell-5" style="border: 5px solid black; width: 100px;"></td>
   </tr>
-  <tr>
-    <td id="cell-6" style="border: 5px solid black;"></td>
-    <td id="cell-7" style="border: 5px solid black;"></td>
-    <td id="cell-8" style="border: 5px solid black;"></td>
+  <tr style="height: 100px;">
+    <td id="cell-6" style="border: 5px solid black; width: 100px;"></td>
+    <td id="cell-7" style="border: 5px solid black; width: 100px;"></td>
+    <td id="cell-8" style="border: 5px solid black; width: 100px;"></td>
   </tr>
 </table>
 
