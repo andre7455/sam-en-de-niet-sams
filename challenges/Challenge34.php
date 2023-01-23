@@ -10,5 +10,5 @@
 <br>
 <br>
 
-<img src="../Media/jiggly.jpg">
+<img src="../Media/jiggly.jpg" style="height: 50%">
 

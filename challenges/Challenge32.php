@@ -9,5 +9,5 @@
 <br>
 <br>
 
-<img src="../Media/pikachu.jpg">
+<img src="../Media/pikachu.jpg" style="height: 50%">
 

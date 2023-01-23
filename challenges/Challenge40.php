@@ -1,4 +1,4 @@
-<p>Wat is het grootste eiland van Indonesië</p>
+<p>Wat is het grootste eiland van Indonesië?</p>
 
 <button onclick="generatePunishment()" type="button" name="button1" id="button1" class="btn btn-primary">Borneo</button>
 <button onclick="generatePunishment()" type="button" name="button1" id="button1" class="btn btn-primary">Java</button>
