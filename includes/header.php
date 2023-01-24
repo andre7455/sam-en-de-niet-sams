@@ -25,7 +25,6 @@ function generatePunishment() {
     
     alert("Punishment: Take " + steps + " steps back.");
   }
-  redirect();
 }
 
 function generateReward() {
@@ -42,7 +41,6 @@ function generateReward() {
         var steps = Math.floor(Math.random() * 4);
         alert("Reward: Take " + steps + " steps forward!");
     }
-    redirect();
 }
 
 function redirect(){
