@@ -12,7 +12,8 @@
     failTimeout = setTimeout(function () {
         document.getElementById("challenge").style.backgroundColor = "red";
         document.getElementById("challenge").innerHTML = "fail";
-        generatePunishment()
+        generatePunishment();
+        redirect();
     }, 500);
 </script>
 </body>

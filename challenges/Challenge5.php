@@ -29,6 +29,7 @@ function generateNumber() {
   if (remainingGuesses == 0) {
     alert("Gordon Ramsey ones famously said:\r" + "You're a bloody disaster in the kitchen! Can't even guess a simple number between 1 and 10? The right number was bloody " + secretNumber + "! Get out of my kitchen before you burn the place down!\r" + "Source: Sam Nihao");
     generatePunishment();
+    redirect();
   }
 }
 </script>

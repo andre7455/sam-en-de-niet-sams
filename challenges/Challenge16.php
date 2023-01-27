@@ -45,12 +45,14 @@ function checkWin(player) {
         board[winCombinations[i][1]] === player &&
         board[winCombinations[i][2]] === player) {
       alert('You win!');
+      generateReward();
       gameEnd = true;
       return;
     }
   }
   if (!board.includes('')) {
     alert('You lose!');
+    generatePunishment();
     gameEnd = true;
   }
 }
