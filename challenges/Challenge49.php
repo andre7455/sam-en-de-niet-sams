@@ -9,5 +9,5 @@
 <br>
 <br>
 
-<img src="../Media/Hopper_Nighthawks.jpg" style="height: 50%">
+<img src="../Media/Hopper_Nighthawks.jpg" style="width: 100%">
 

@@ -9,5 +9,5 @@
 <br>
 <br>
 
-<img src="../Media/snorlax.jpg" style="height: 50%">
+<img src="../Media/snorlax.jpg" style="width: 100%">
 
