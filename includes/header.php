@@ -50,6 +50,11 @@ function redirect(){
 </script>
 <style>
 	body{background-color: coral;}
+  <style>
+	@media (max-width: 768px){
+    font-size: 14px;
+  }
+</style>
 </style>
 
 <body>
