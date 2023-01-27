@@ -8,7 +8,7 @@ $remainingGuesses = 5;
 echo "<p>I'm thinking of a number between $min and $max. Can you guess what it is?</p></br>";
 echo '<p id="remainingGuesses">you have ' . $remainingGuesses . ' remaining guesses</p>';
 ?>
-<button class="btn btn-primary"onclick="generateNumber()">Click me</button>
+<button class="btn psize btn-primary"onclick="generateNumber()">Click me</button>
 <input id="textField"></input>
 <script>
 var secretNumber = <?php echo $secretNumber; ?>;
