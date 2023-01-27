@@ -35,12 +35,12 @@ The include is used to import a other page.
     }
 
     .psize{
-        font-size: 2em;
+        font-size: 3em;
     }
 
-    button{
-        height: 5%;
-        width: 15%;
-    }
+    /*button{*/
+    /*    height: 5%;*/
+    /*    width: 15%;*/
+    /*}*/
 
 </style>
