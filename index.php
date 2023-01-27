@@ -34,6 +34,10 @@ The include is used to import a other page.
         font-size: 5em;
     }
 
+    .psize{
+        font-size: 2em;
+    }
+
     button{
         height: 5%;
         width: 15%;
