@@ -27,3 +27,16 @@ The include is used to import a other page.
 
 <button class="btn btn-primary refresh-btn" onclick="redirect()">Refresh mother fucker</button>
 <!-- here we close out the html so that the browser knows not to expect more code-->
+
+
+<style>
+    p{
+        font-size: 5em;
+    }
+
+    button{
+        height: 5%;
+        width: 15%;
+    }
+
+</style>
