@@ -25,5 +25,5 @@ The include is used to import a other page.
 	include "includes/footer.php";
 ?>
 
-<button class="btn btn-primary refresh-btn" onclick="alert(1);redirect()">Refresh</button>
+<button class="btn btn-primary refresh-btn" onclick="redirect()">Refresh</button>
 <!-- here we close out the html so that the browser knows not to expect more code-->
