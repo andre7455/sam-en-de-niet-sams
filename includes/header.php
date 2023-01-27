@@ -38,7 +38,7 @@ function generateReward() {
     // als je niet verliest krijg je je beloning
     else {
         // genereer een nummer als beloning
-        var steps = Math.floor(Math.random() * 4);
+        var steps = Math.floor((Math.random() * 4) + 1);
         alert("Reward: Take " + steps + " steps forward!");
     }
 }
