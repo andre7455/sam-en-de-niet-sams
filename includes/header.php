@@ -54,7 +54,16 @@ function redirect(){
 	@media (max-width: 768px){
     font-size: 14px;
   }
-</style>
+  .refresh-btn {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
 </style>
 
 <body>

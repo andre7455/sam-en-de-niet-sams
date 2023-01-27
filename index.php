@@ -1,7 +1,6 @@
 <?php
 	include "includes/header.php";
 ?>
-
 <!-- this is where the php code starts.
 Here we first define a random number
 $ is used to declare a variable and because php is a soft language we do not have to define what type of data is put in the variable
@@ -25,4 +24,6 @@ The include is used to import a other page.
 	include $chosenChallenge;
 	include "includes/footer.php";
 ?>
+
+<button class="btn btn-primary refresh-btn" onclick="alert(1);redirect()">Refresh</button>
 <!-- here we close out the html so that the browser knows not to expect more code-->
