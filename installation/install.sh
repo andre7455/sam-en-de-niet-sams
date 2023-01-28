@@ -1,5 +1,6 @@
 sudo apt-get update; sudo apt-get upgrade;
 sudo apt-get install php;
+sudo apt-get install git;
 sudo apt-get install apache2;
 sudo systemctl enable apache2;
 sudo rm -r /var/www/html/*;
@@ -9,4 +10,3 @@ sudo mv sam-en-de-niet-sams/* /var/www/html/;
 sudo systemctl restart apache2;
 sudo systemctl status apache2; 
 exit;
-
