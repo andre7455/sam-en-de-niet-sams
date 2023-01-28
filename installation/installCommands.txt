@@ -1,0 +1,2 @@
+scp install.sh andre@192.168.65.9:home/andre;
+ssh username@ip
